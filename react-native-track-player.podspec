@@ -11,12 +11,14 @@ Pod::Spec.new do |s|
   s.author       = "David Chavez"
   s.homepage     = package['repository']['url']
   s.platform     = :ios, "10.0"
-
+  
   s.source       = { :git => package['repository']['url'], :tag => "v#{s.version}" }
   s.source_files  = "ios/RNTrackPlayer/*.{h,m,swift}",
-                    "ios/RNTrackPlayer/Models/**/*.{h,m,swift}",
-                    "ios/RNTrackPlayer/Support/**/*.{h,m,swift}",
-                    "ios/RNTrackPlayer/Vendor/AudioPlayer/SwiftAudio/**/*.{h,m,swift}"
-
+    "ios/RNTrackPlayer/Models/**/*.{h,m,swift}",
+    "ios/RNTrackPlayer/Support/**/*.{h,m,swift}",
+    "ios/RNTrackPlayer/Vendor/AudioPlayer/SwiftAudio/**/*.{h,m,swift}"
+  
+  s.swift_version = "4.2"
+  
   s.dependency "React"
 end

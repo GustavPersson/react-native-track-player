@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2593E2AE231E628700149116 /* QueuedAudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2593E2AD231E628700149116 /* QueuedAudioPlayer.swift */; };
 		9A0CF10E2046E5AC0093A5DF /* PitchAlgorithms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0CF10D2046E5AC0093A5DF /* PitchAlgorithms.swift */; };
 		9B0E282E1F07D76F00B71D2A /* RNTrackPlayerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0E282D1F07D76F00B71D2A /* RNTrackPlayerBridge.m */; };
 		9B0E282F1F07D76F00B71D2A /* RNTrackPlayerBridge.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9B0E282C1F07D76F00B71D2A /* RNTrackPlayerBridge.h */; };
@@ -56,6 +57,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2593E2AD231E628700149116 /* QueuedAudioPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QueuedAudioPlayer.swift; path = RNTrackPlayer/Vendor/AudioPlayer/SwiftAudio/Classes/QueuedAudioPlayer.swift; sourceTree = "<group>"; };
 		9A0CF10D2046E5AC0093A5DF /* PitchAlgorithms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchAlgorithms.swift; sourceTree = "<group>"; };
 		9B0E28291F07D76F00B71D2A /* libRNTrackPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNTrackPlayer.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B0E282C1F07D76F00B71D2A /* RNTrackPlayerBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNTrackPlayerBridge.h; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 		9B0E28201F07D76E00B71D2A = {
 			isa = PBXGroup;
 			children = (
+				2593E2AD231E628700149116 /* QueuedAudioPlayer.swift */,
 				9B0E282B1F07D76F00B71D2A /* RNTrackPlayer */,
 				9B0E282A1F07D76F00B71D2A /* Products */,
 			);
@@ -304,6 +307,7 @@
 				9B18C2FA226356560019375A /* SessionCategories.swift in Sources */,
 				9B78A2481F3F12C9002B5E3C /* MediaURL.swift in Sources */,
 				9B18C338226357940019375A /* AudioPlayer.swift in Sources */,
+				2593E2AE231E628700149116 /* QueuedAudioPlayer.swift in Sources */,
 				9B18C326226357940019375A /* AudioItem.swift in Sources */,
 				9B18C328226357940019375A /* QueueManager.swift in Sources */,
 				9BFC1FDD1F61A8E8008795BF /* Capabilities.swift in Sources */,
