@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
     "ios/RNTrackPlayer/Support/**/*.{h,m,swift}",
     "ios/RNTrackPlayer/Vendor/AudioPlayer/SwiftAudio/**/*.{h,m,swift}"
   
-  s.swift_version = "4.2"
+  s.swift_version = "5.0"
   
   s.dependency "React"
 end
